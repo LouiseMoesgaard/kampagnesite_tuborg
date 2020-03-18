@@ -1,11 +1,27 @@
-/*********tekster*********/
-/*
-font-family: 'PT Sans',
-sans-serif;
-font-family: 'Quicksand',
-sans-serif;
-*/
-/*********tekster slut*********/
+/********* Generalle tekster *********/
+h1 {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 3.5rem;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    color: #093A82;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    color: #707070;
+    font-size: 1rem
+}
+
+/********* Generalle tekster slut *********/
 
 
 /*** Layout ***/
@@ -41,27 +57,24 @@ img {
 }
 
 /*header footer*/
-/*** Landingpage ***/
+/*********************** Landingpage ***********************/
 
-h2 {
-    font-family: 'Quicksand', sans-serif;
-    color: #093A82;
-    font-size: 1.5rem
-}
 
-h1 {
+
+/*********************** Partners ***********************/
+/*********************** Video_site ***********************/
+/*********************** Game ***********************/
+/*** Tekst ***/
+.game h1 {
     font-family: 'PT Sans', sans-serif;
     font-weight: bold;
-    color: #FFFFFF;
-    font-size: 3.5rem;
+    color: #093A82;
+    font-size: 3.3rem;
+    letter-spacing: 2px;
 }
 
-p {
+.game p {
     font-family: 'Quicksand', sans-serif;
-    color: #707070;
-    /*    font-size: 1.3rem*/
+    color: #FFFFFF;
+    font-size: 1rem
 }
-
-/*** Partners ***/
-/*** Video_site ***/
-/*** Game ***/
