@@ -1,5 +1,10 @@
 /*********tekster*********/
-<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap"rel="stylesheet" > <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap"rel="stylesheet" >
+/*
+font-family: 'PT Sans',
+sans-serif;
+font-family: 'Quicksand',
+sans-serif;
+*/
 /*********tekster slut*********/
 
 
@@ -35,10 +40,39 @@ img {
     width: 100%;
 }
 
-header footer
+/*header footer*/
 /*** Landingpage ***/
 
+#landingsection h2 {
+    font-family: 'Quicksand', sans-serif;
+    color: #093A82;
+    font-size: 1.5rem
+}
 
-/*** Partners ***/
-/*** Video_site ***/
-/*** Game ***/
+#landingsection h1 {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 3.5rem;
+}
+
+#landingsection p {
+    font-family: 'Quicksand', sans-serif;
+    color: #707070;
+    /*    font-size: 1.3rem*/
+}
+
+.landingpage h1 {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 3.5rem;
+}
+
+.landingpage h2 {
+    font-family: 'Quicksand', sans-serif;
+    color: #093A82;
+    font-size: 1.5rem
+        /*** Partners ***/
+        /*** Video_site ***/
+        /*** Game ***/
