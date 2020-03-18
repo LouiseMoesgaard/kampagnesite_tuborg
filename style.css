@@ -1,4 +1,35 @@
 /*** Layout ***/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+container {
+    padding: 3vw;
+    max-width: 1680px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    /**sætter den i midten**/
+}
+
+.hide {
+    display: none !important;
+
+}
+
+img {
+    width: 100%;
+}
+
 header footer
 /*** Landingpage ***/
 /*** Partners ***/
