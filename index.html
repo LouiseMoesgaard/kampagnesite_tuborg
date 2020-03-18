@@ -6,26 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
     <link rel="stylesheet" href="style.css">
-
     <script src="https://kit.fontawesome.com/6492c587db.js" crossorigin="anonymous"></script>
-
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap" rel="stylesheet">
-
     <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500&display=swap" rel="stylesheet">
-
-    <style>
-        body {
-            /* Skal var gradienten men for at kunne se den hvide skrift har jeg lige nu bare sat den blå farve på, indtil vi får gridet og sat det rigtigt op*/
-            background-color: #BEE0D9;
-            /*            background-image: linear-gradient(#BEE0D9, white);*/
-        }
-
-        img {
-            max-width: 15vw;
-        }
-
-    </style>
-
 </head>
 
 <body>
@@ -41,7 +24,10 @@
                 <i class="fas fa-bars"></i>
             </div>
 
-            <ul>
+            <ul class="hide">
+                <li>
+                    <i class="fas fa-times close_burger"></i>
+                </li>
                 <li>
                     <a href="game.html">LET’S PLAY</a>
                 </li>
@@ -59,7 +45,7 @@
         </nav>
     </header>
 
-    <div class="container">
+    <div class="container index">
         <div class="gridwrapper">
             <div id="landingvideo">
                 <video></video>

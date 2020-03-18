@@ -1,4 +1,89 @@
-/********* Generalle tekster *********/
+/*** Layout ***/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.container {
+    padding: 3vw;
+    max-width: 1680px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    /**sætter den i midten**/
+}
+
+.hide {
+    display: none !important;
+
+}
+
+img {
+    width: 100%;
+}
+
+/*** Navigation **/
+
+#navigation {
+    height: 10vw;
+    padding: 1vw;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+}
+
+.burger, nav ul li:first-child {
+    color: #FFFFFF;
+    position: absolute;
+    right: 5px;
+    top: 15px;
+    padding: 0.2vw 5vw 0 0;
+    margin: 0;
+    font-size: 1.7rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 7vw 5vw 0 0;
+    margin: 0;
+    width: 50%;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: #093A82;
+}
+
+nav ul li {
+    text-align: right;
+    margin-bottom: 7vw;
+    margin-top: 15vw;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+/*** Footer **/
+footer {
+
+}
+
+/*** Generelle tekster ***/
 h1 {
     font-family: 'PT Sans', sans-serif;
     font-weight: bold;
@@ -22,97 +107,79 @@ p {
     font-weight: 500;
 }
 
-/********* Generalle tekster slut *********/
 
+/*** Landingpage ***/
 
-/*** Layout ***/
-* {
-    box-sizing: border-box;
+.index {
+    /* Skal var gradienten men for at kunne se den hvide skrift har jeg lige nu bare sat den blå farve på, indtil vi får gridet og sat det rigtigt op*/
+    background-color: #BEE0D9;
+    /*            background-image: linear-gradient(#BEE0D9, white);*/
 }
 
-body {
+/*** Partners ***/
+ .partners {
+            background-image: linear-gradient(#BEE0D9, white);
+        }
+
+/*** Video_site ***/
+
+.videosite {
+            background-image: linear-gradient(#FAC177, white);
+
+        }
+
+/*** Game ***/
+
+.game {
+            /* Skal var gradienten men for at kunne se den hvide skrift har jeg lige nu bare sat den blå farve på, indtil vi får gridet og sat det rigtigt op*/
+            background-color: #F9D3D6;
+            /*            background-image: linear-gradient(#F9D3D6, white);*/
+        }
+
+
+
+
+/*** Mediaquries ***/
+
+@media only screen and (min-width: 600px) {
+
+   /*** Navigation **/
+
+#navigation {
+     padding: 1.5vw;
+        height: 6vw;
+}
+
+.burger, nav ul li:first-child {
+    display: none;
+}
+
+nav ul {
+    padding: 2vw 5vw 0 5vw;
     margin: 0;
-    padding: 0;
+    height: initial;
+    position: absolute;
+    width: initial;
+    right: 0;
+    top: 0;
+    background-color: transparent;
 }
 
-html {
-    scroll-behavior: smooth;
+nav ul li {
+    padding-right: 2vw;
+    text-align: right;
+    margin-bottom: 0;
+    margin-top: 0;
+    display: inline-block;
 }
 
-
-container {
-    padding: 3vw;
-    max-width: 1680px;
-    margin: 0 auto;
-    margin-bottom: 30px;
-    /**sætter den i midten**/
+nav ul li a {
+    color: #9C9E9F;
+    font-size: 1.3rem;
 }
 
-.hide {
-    display: none !important;
-
-}
-
-img {
-    width: 100%;
-}
-
-
-/*********************** header ***********************/
-/*** Tekst ***/
-a {
-    font-family: 'Quicksand', sans-serif;
-    color: #707070;
-    font-size: 0.8rem;
-    font-weight: 500;
-
-    text-decoration: none;
-
-}
-
-li {
-    list-style: none;
-}
-
-/*********************** header SLUT ***********************/
-
-/*********************** footer ***********************/
-/*********************** footer SLUT ***********************/
-
-
-/*********************** Landingpage ***********************/
-/*********************** Landingpage SLUT ***********************/
-
-
-
-/*********************** Partners ***********************/
-/*********************** Partners SLUT ***********************/
-
-
-/*********************** Video_site ***********************/
-/*** Tekst ***/
-.hastag p {
-    font-family: 'Quicksand', sans-serif;
-    color: #707070;
-    font-size: 1.7rem
-}
-
-/*********************** Video_site SLUT ***********************/
-
-/*********************** Game ***********************/
-/*** Tekst ***/
-.game h1 {
-    font-family: 'PT Sans', sans-serif;
-    font-weight: bold;
-    color: #093A82;
-    font-size: 3.3rem;
-    letter-spacing: 2px;
-}
-
-.game p {
-    font-family: 'Quicksand', sans-serif;
+nav ul li a:hover {
     color: #FFFFFF;
-    font-size: 1.2rem
 }
 
-/*********************** Game SLUT ***********************/
+}
