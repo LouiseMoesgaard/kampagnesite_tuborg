@@ -43,36 +43,25 @@ img {
 /*header footer*/
 /*** Landingpage ***/
 
-#landingsection h2 {
+h2 {
     font-family: 'Quicksand', sans-serif;
     color: #093A82;
     font-size: 1.5rem
 }
 
-#landingsection h1 {
+h1 {
     font-family: 'PT Sans', sans-serif;
     font-weight: bold;
     color: #FFFFFF;
     font-size: 3.5rem;
 }
 
-#landingsection p {
+p {
     font-family: 'Quicksand', sans-serif;
     color: #707070;
     /*    font-size: 1.3rem*/
 }
 
-.landingpage h1 {
-    font-family: 'PT Sans', sans-serif;
-    font-weight: bold;
-    color: #FFFFFF;
-    font-size: 3.5rem;
-}
-
-.landingpage h2 {
-    font-family: 'Quicksand', sans-serif;
-    color: #093A82;
-    font-size: 1.5rem
-        /*** Partners ***/
-        /*** Video_site ***/
-        /*** Game ***/
+/*** Partners ***/
+/*** Video_site ***/
+/*** Game ***/
