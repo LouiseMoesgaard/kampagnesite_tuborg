@@ -169,6 +169,7 @@ h2 {
     color: #093A82;
     font-size: 1.7rem;
     font-weight: 500;
+    margin: 0;
     letter-spacing: 0.5px;
 }
 
@@ -178,6 +179,7 @@ p {
     font-size: 1.2rem;
     line-height: 30px;
     font-weight: 500;
+    margin: 0;
 }
 
 
@@ -276,8 +278,28 @@ p {
 
 .videosite {
     background-image: linear-gradient(#FAC177, white);
-
 }
+
+
+.videooverskrift {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.videooverskrift h2 {
+    font-size: 0.8rem;
+    margin-top: 20vw;
+
+    margin-bottom: inherit;
+}
+
+.videooverskrift h1 {
+    font-size: 1.3rem;
+    margin-top: 1.2vw;
+}
+
 
 /*** Game ***/
 
@@ -286,6 +308,12 @@ p {
     background-color: #F9D3D6;
     /*            background-image: linear-gradient(#F9D3D6, white);*/
 }
+
+.gameoverskrift h1 {
+    font-size: 0.8rem;
+    margin-top: 20vw;
+}
+
 
 
 
