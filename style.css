@@ -33,22 +33,38 @@ img {
 
 #navigation {
     height: 10vw;
-    padding: 1vw;
+    padding: 2vw 5vw;
     position: absolute;
     top: 0;
     width: 100%;
     z-index: 5;
 }
 
-.burger,
+.navlogo {
+    height: 100%;
+    display: inline-block;
+}
+
+.navlogo img {
+    height: 100%;
+    width: auto;
+}
+
 nav ul li:first-child {
     color: #FFFFFF;
     position: absolute;
-    right: 5px;
-    top: 15px;
+    right: 3px;
+    top: 10px;
     padding: 0.2vw 5vw 0 0;
     margin: 0;
     font-size: 1.7rem;
+}
+
+.burger {
+    color: #FFFFFF;
+    font-size: 1.7rem;
+    display: inline-block;
+    float: right;
 }
 
 nav ul {
@@ -145,6 +161,7 @@ h1 {
     font-weight: bold;
     color: #FFFFFF;
     font-size: 2.9rem;
+    margin: 0;
     letter-spacing: 1px;
 }
 
@@ -288,7 +305,7 @@ p {
 
     /*** Navigation **/
     #navigation {
-        padding: 1.5vw;
+        padding: 1.5vw 3vw;
         height: 6vw;
     }
 
@@ -297,14 +314,18 @@ p {
         display: none;
     }
 
+    .navlogo {
+        width: 5vw;
+    }
+
     nav ul {
-        padding: 2vw 3vw 0 5vw;
+        padding: 0;
         margin: 0;
         height: initial;
-        position: absolute;
+        position: static;
         width: initial;
-        right: 0;
-        top: 0;
+        display: inline-block;
+        float: right;
         background-color: transparent;
     }
 
@@ -328,13 +349,14 @@ p {
     /*** Footer ***/
     footer {
         justify-content: space-between;
+        padding: 1.5vw 3vw;
+        height: 6vw;
     }
 
     .footer_right {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        margin-left: 3vw;
     }
 
 
@@ -342,7 +364,6 @@ p {
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        margin-right: 3vw;
     }
 
     .mobil_logo {
