@@ -81,11 +81,11 @@ nav ul li a {
 /*** Footer **/
 
 footer {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    top: 0px;
 }
 
 .footer_right {
@@ -194,14 +194,14 @@ p {
     left: 34%;
 }
 
-.landingpage.gridwrapper{
-        padding: 0 3vw 0 3vw;
-        display: flex;
-        flex-wrap: wrap;
-    }
+.landingpage.gridwrapper {
+    padding: 0 3vw 0 3vw;
+    display: flex;
+    flex-wrap: wrap;
+}
 
 #landingpicbottle {
-     flex-grow: 1;
+    flex-grow: 1;
     flex-basis: 275px;
     position: relative;
     height: 115vw;
@@ -222,13 +222,13 @@ p {
 }
 
 .index h2:first-child {
-     flex-grow: 1;
+    flex-grow: 1;
     flex-basis: 275px;
     margin-top: 50vw;
 }
 
 .index h1 {
-     flex-grow: 1;
+    flex-grow: 1;
     flex-basis: 275px;
     text-align: center;
 }
@@ -244,7 +244,8 @@ p {
 }
 
 
-#landingvideo, #landingsection {
+#landingvideo,
+#landingsection {
     flex-grow: 1;
     flex-basis: 275px;
 }
@@ -278,11 +279,11 @@ p {
 @media only screen and (min-width: 600px) {
 
     #horizontal {
-    display: none;
+        display: none;
     }
 
     #vertical {
-    display: block;
+        display: block;
     }
 
     /*** Navigation **/
@@ -326,33 +327,33 @@ p {
 
     /*** Footer ***/
     footer {
-    justify-content: space-between;
-}
+        justify-content: space-between;
+    }
 
-.footer_right {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-left: 3vw;
-}
+    .footer_right {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 3vw;
+    }
 
 
-.footer_left {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin-right: 3vw;
-}
+    .footer_left {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-right: 3vw;
+    }
 
-.mobil_logo {
-    display: none;
-}
+    .mobil_logo {
+        display: none;
+    }
 
 
     /*** Landingpage ***/
 
     #landingsection {
-    padding: 0 2vw 0 10vw;
+        padding: 0 2vw 0 10vw;
     }
 
     #landingpiccan img {
@@ -363,47 +364,46 @@ p {
     }
 
 
-    .landingpage.gridwrapper{
+    .landingpage.gridwrapper {
         margin-top: 7vw;
 
     }
 
     #landingpicbottle {
-    height: 50vw;
-}
-
-#landingpicbottle #bottle {
-    width: 12vw;
-    left: 35%;
-    z-index: 3;
-}
-
-#landingpicbottle #egg {
-    position: absolute;
-    width: 10vw;
-    left: 35%;
-    z-index: 2;
-}
-
-
-.index h2:first-child {
-    margin-top: 10vw;
+        height: 50vw;
     }
 
-.index h1 {
-    text-align: center;
+    #landingpicbottle #bottle {
+        width: 12vw;
+        left: 35%;
+        z-index: 3;
     }
 
-.index #difstyling1 {
-    padding: 7vw 0 0 2vw;
+    #landingpicbottle #egg {
+        position: absolute;
+        width: 10vw;
+        left: 35%;
+        z-index: 2;
+    }
+
+
+    .index h2:first-child {
+        margin-top: 10vw;
+    }
+
+    .index h1 {
+        text-align: center;
+    }
+
+    .index #difstyling1 {
+        padding: 7vw 0 0 2vw;
 
     }
 
-.index #difstyling2 {
-    padding: 18vw 2vw 0 0;
+    .index #difstyling2 {
+        padding: 18vw 2vw 0 0;
 
     }
 }
-
 
 /********* Footer *********/
