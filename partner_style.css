@@ -1,0 +1,84 @@
+/*** Partners ***/
+.partners {
+    background-image: linear-gradient(#BEE0D9, white);
+}
+
+.overskrift h1 {
+    font-size: 1.3rem;
+    margin-top: 20vw;
+    margin-bottom: inherit;
+}
+
+.overskrift h2 {
+    font-size: 0.8rem;
+    margin-top: 1.2vw;
+}
+
+.overskrift {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.overskrift2 {
+    font-size: 1.5rem;
+    padding: 2vw;
+    padding-left: 5.5vw;
+    padding-right: 5.5vw;
+    border-bottom: 2px solid white;
+}
+
+.gridwrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+
+}
+
+
+.icon {
+    padding-bottom: 15vw;
+    padding-top: 10vw;
+    padding-left: 25vw;
+    padding-right: 25vw;
+}
+
+
+@media only screen and (min-width: 600px) {
+
+    .overskrift h1 {
+        font-size: 2.9rem;
+        margin-top: 12vw;
+        margin-bottom: inherit;
+    }
+
+    .overskrift h2 {
+        font-size: 1.7rem;
+        margin-top: 0.5vw;
+        margin-right: 9vw;
+
+    }
+
+    .under_overskrift {
+        align-self: flex-end;
+    }
+
+
+    .gridwrapper {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        justify-content: center;
+        align-items: center;
+        margin-top: 4vw;
+        margin-bottom: 5vw;
+    }
+
+    .icon {
+        padding: 3vw;
+        border-right: 1px solid white;
+    }
+
+
+
+    .overskrift2 {
+        display: none
+    }
