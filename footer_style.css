@@ -1,0 +1,91 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    top: 0px;
+}
+
+.footer_right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 3vw;
+
+}
+
+
+.footer_left {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 3vw;
+}
+
+
+
+.line_right {
+    width: 120px;
+    height: 2px;
+    background-color: #707070;
+    margin: 5px;
+    margin: 0.5vw;
+
+}
+
+.line_left {
+    width: 200px;
+    height: 2px;
+    background-color: #707070;
+    margin: 5px;
+    margin: 0.5vw;
+
+}
+
+footer .logo {
+    max-width: 2vw;
+    margin: 0.5vw;
+
+}
+
+footer p {
+    font-size: 0.8rem;
+    margin: 0.5vw;
+}
+
+.mobil_logo {
+    display: none;
+}
+
+
+@media screen and (max-width:600px) {
+
+    footer {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .footer_right {
+        display: none
+    }
+
+    .footer_left {
+        display: none;
+    }
+
+    .mobil_logo {
+        display: block;
+    }
+
+    .mobil_logo {
+        display: flex;
+        justify-content: space-around;
+        width: 30vw;
+    }
+
+    .mobil_logo img {
+        width: 8vw;
+    }
+}
