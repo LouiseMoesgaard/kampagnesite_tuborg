@@ -78,8 +78,66 @@ nav ul li a {
     cursor: pointer;
 }
 
+/*** Footer **/
 
-/*** Footer ***/
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    top: 0px;
+}
+
+.footer_right {
+    display: none
+}
+
+.footer_left {
+    display: none;
+}
+
+.line_right {
+    width: 120px;
+    height: 2px;
+    background-color: #707070;
+    margin: 5px;
+    margin: 0.5vw;
+
+}
+
+.line_left {
+    width: 200px;
+    height: 2px;
+    background-color: #707070;
+    margin: 5px;
+    margin: 0.5vw;
+
+}
+
+footer .logo {
+    max-width: 2vw;
+    margin: 0.5vw;
+
+}
+
+footer p {
+    font-size: 0.8rem;
+    margin: 0.5vw;
+}
+
+.mobil_logo {
+    display: block;
+}
+
+.mobil_logo {
+    display: flex;
+    justify-content: space-around;
+    width: 30vw;
+}
+
+.mobil_logo img {
+    width: 8vw;
+}
 
 /*** Generelle tekster ***/
 h1 {
@@ -109,6 +167,11 @@ p {
 
 /*** Landingpage ***/
 
+
+#vertical {
+    display: none;
+}
+
 .index {
     /* Skal var gradienten men for at kunne se den hvide skrift har jeg lige nu bare sat den blå farve på, indtil vi får gridet og sat det rigtigt op*/
     background-color: #BEE0D9;
@@ -116,7 +179,6 @@ p {
 }
 
 #landingvideo {
-    width: 100%;
     padding: 0;
     margin: 0;
 }
@@ -132,7 +194,15 @@ p {
     left: 34%;
 }
 
+.landingpage.gridwrapper {
+    padding: 0 3vw 0 3vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 #landingpicbottle {
+    flex-grow: 1;
+    flex-basis: 275px;
     position: relative;
     height: 115vw;
 }
@@ -152,15 +222,32 @@ p {
 }
 
 .index h2:first-child {
+    flex-grow: 1;
+    flex-basis: 275px;
     margin-top: 50vw;
 }
 
 .index h1 {
+    flex-grow: 1;
+    flex-basis: 275px;
     text-align: center;
 }
 
 #landingsection {
     padding: 0 3vw 0 3vw;
+}
+
+
+.landingsection.gridwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#landingvideo,
+#landingsection {
+    flex-grow: 1;
+    flex-basis: 275px;
 }
 
 
@@ -191,8 +278,15 @@ p {
 
 @media only screen and (min-width: 600px) {
 
-    /*** Navigation **/
+    #horizontal {
+        display: none;
+    }
 
+    #vertical {
+        display: block;
+    }
+
+    /*** Navigation **/
     #navigation {
         padding: 1.5vw;
         height: 6vw;
@@ -215,7 +309,7 @@ p {
     }
 
     nav ul li {
-        padding-right: 2vw;
+        padding-right: 1vw;
         text-align: right;
         margin-bottom: 0;
         margin-top: 0;
@@ -224,14 +318,92 @@ p {
 
     nav ul li a {
         color: #9C9E9F;
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 
     nav ul li a:hover {
         color: #FFFFFF;
     }
 
-}
+    /*** Footer ***/
+    footer {
+        justify-content: space-between;
+    }
 
+    .footer_right {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 3vw;
+    }
+
+
+    .footer_left {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-right: 3vw;
+    }
+
+    .mobil_logo {
+        display: none;
+    }
+
+
+    /*** Landingpage ***/
+
+    #landingsection {
+        padding: 0 2vw 0 10vw;
+    }
+
+    #landingpiccan img {
+        width: 15vw;
+        position: absolute;
+        top: 21%;
+        left: 42%;
+    }
+
+
+    .landingpage.gridwrapper {
+        margin-top: 7vw;
+
+    }
+
+    #landingpicbottle {
+        height: 50vw;
+    }
+
+    #landingpicbottle #bottle {
+        width: 12vw;
+        left: 35%;
+        z-index: 3;
+    }
+
+    #landingpicbottle #egg {
+        position: absolute;
+        width: 10vw;
+        left: 35%;
+        z-index: 2;
+    }
+
+
+    .index h2:first-child {
+        margin-top: 10vw;
+    }
+
+    .index h1 {
+        text-align: center;
+    }
+
+    .index #difstyling1 {
+        padding: 7vw 0 0 2vw;
+
+    }
+
+    .index #difstyling2 {
+        padding: 18vw 2vw 0 0;
+
+    }
+}
 
 /********* Footer *********/
