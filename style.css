@@ -16,7 +16,6 @@ html {
 .container:not(.index) {
     max-width: 1680px;
     margin: 0 auto;
-    padding: 0 3vw 0 3vw;
     /**sætter den i midten**/
 }
 
