@@ -34,7 +34,7 @@ img {
 #navigation {
     height: 10vw;
     padding: 1vw;
-    position: fixed;
+    position: absolute;
     top: 0;
     width: 100%;
     z-index: 5;
@@ -298,7 +298,7 @@ p {
     }
 
     nav ul {
-        padding: 2vw 5vw 0 5vw;
+        padding: 2vw 3vw 0 5vw;
         margin: 0;
         height: initial;
         position: absolute;
@@ -317,8 +317,8 @@ p {
     }
 
     nav ul li a {
-        color: #9C9E9F;
-        font-size: 1rem;
+        color: #707070;
+        font-size: 0.8rem;
     }
 
     nav ul li a:hover {
