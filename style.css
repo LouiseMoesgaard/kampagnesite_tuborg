@@ -86,35 +86,80 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 7vw;
 
     width: 100%;
     top: 0px;
 }
 
-.footer_left {
+.mobil_logo {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    margin-right: 3vw;
+    margin-left: 3vw;
 }
 
-.footer_left .line_right,
-.line_left {
+
+.footer_right {
     display: none;
 }
 
+.footer_right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 3vw;
 
+}
+
+.footer_left {
+    display: none;
+}
+
+.footer_left {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 3vw;
+
+}
+
+
+.line_right {
+    width: 120px;
+    height: 2px;
+    background-color: #707070;
+    margin: 5px;
+    margin: 0.5vw;
+
+}
+
+
+.line_left {
+    width: 200px;
+    height: 2px;
+    background-color: #707070;
+    margin: 5px;
+    margin: 0.5vw;
+
+}
 
 footer .logo {
-    max-width: 5vw;
+    max-width: 2vw;
+    margin: 0.5vw;
 
 }
 
 footer p {
     display: none;
 }
+
+footer p {
+    font-size: 0.8rem;
+    margin: 0.5vw;
+}
 */
+
+
 
 
 
@@ -272,6 +317,7 @@ p {
 
 
 /********* Footer *********/
+/*
 footer {
     display: flex;
     justify-content: space-between;
@@ -285,41 +331,35 @@ footer {
 
 
 .footer_right {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-left: 3vw;
+    display: block;
 }
 
 .footer_left {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin-right: 3vw;
+    display: block;
 }
 
 .line_right {
-    width: 120px;
-    height: 2px;
-    background-color: #707070;
-    margin: 5px;
-    margin: 0.5vw;
+    display: block;
 }
 
 .line_left {
-    width: 200px;
-    height: 2px;
-    background-color: #707070;
-    margin: 5px;
-    margin: 0.5vw;
+
+    display: block;
 }
 
 footer .logo {
-    max-width: 2vw;
-    margin: 0.5vw;
+
+    display: block;
 }
 
 footer p {
-    font-size: 0.8rem;
-    margin: 0.5vw;
+
+    display: block;
 }
+
+.mobil_logo {
+    display: flex;
+    align-items: center;
+
+}
+*/
