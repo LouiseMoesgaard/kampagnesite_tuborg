@@ -309,6 +309,10 @@ p {
     /*            background-image: linear-gradient(#F9D3D6, white);*/
 }
 
+.gameoverskrift {
+    display: flex;
+}
+
 .gameoverskrift h1 {
     font-size: 0.8rem;
     margin-top: 20vw;
