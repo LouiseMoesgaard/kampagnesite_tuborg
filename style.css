@@ -51,7 +51,7 @@ img {
 }
 
 .navlogo img {
-    height: 100%;
+    height: 160%;
     width: auto;
 }
 
@@ -98,6 +98,8 @@ nav ul li a {
     font-size: 0.9rem;
     cursor: pointer;
 }
+
+
 
 /*** Footer **/
 
@@ -198,9 +200,7 @@ p {
 }
 
 .index {
-    /* Skal var gradienten men for at kunne se den hvide skrift har jeg lige nu bare sat den blå farve på, indtil vi får gridet og sat det rigtigt op*/
-    background-color: #BEE0D9;
-    /*            background-image: linear-gradient(#BEE0D9, white);*/
+    background-image: linear-gradient(#F9D3D6, rgba(249, 211, 214, 0.25));
 }
 
 #landingvideo {

@@ -71,7 +71,10 @@
     }
 
     .img {
-        padding: 5vw;
+        padding-left: 3vw;
+        padding-right: 3vw;
+        padding-bottom: 0vw;
+        padding-top: 1vw;
     }
 
     .txt {
@@ -80,10 +83,11 @@
     }
 
     .egg img {
-        transform: rotate(-15deg)
+        transform: rotate(-8deg)
     }
 
     .beer img {
-        transform: rotate(15deg)
+        transform: rotate(8deg);
+        padding-right: 4vw;
     }
 }
