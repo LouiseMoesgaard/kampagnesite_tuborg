@@ -275,14 +275,6 @@ p {
     flex-basis: 275px;
 }
 
-
-/*** Partners ***/
-.partners {
-    background-image: linear-gradient(#BEE0D9, white);
-}
-
-
-
 /*** Mediaquries ***/
 
 @media only screen and (min-width: 600px) {
