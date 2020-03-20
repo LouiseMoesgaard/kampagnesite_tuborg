@@ -5,10 +5,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="game_style.css">
+
     <script src="https://kit.fontawesome.com/6492c587db.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -20,7 +22,9 @@
                     <img src="billeder/SVG/nul_logo.svg">
                 </a>
             </div>
-            <i class="fas fa-bars burger"></i>
+            <div class="burger">
+                <i class="fas fa-bars"></i>
+            </div>
 
             <ul class="hide">
                 <li>
@@ -36,44 +40,36 @@
                     <a href="partners.html">EVENTS og PARTNERE</a>
                 </li>
                 <li>
-                    <a href="some_content.html">#ExperienceMore</a>
+                    <a href="">#ExperienceMore</a>
                 </li>
             </ul>
 
         </nav>
     </header>
 
-    <div class="container index">
-        <div class="gridwrapper landingsection">
-            <div id="landingvideo">
-                <img id="vertical" src=billeder/beer.png> <video id="horizontal" preload="auto" autoplay="autoplay" type="video/mp4" src="video/horizontal.mp4" loop muted></video>
-            </div>
-            <div id="landingpiccan">
-                <img src="billeder/tuborg_can_wet.png">
-            </div>
-            <div id="landingsection">
-                <h2>
-                    Lad livet<br>overraske,<br>forvent det uforventede
-                </h2>
-                <h1>Experience more</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ligula ex, fringilla egestas leo dictum, ultrices hendrerit orci. Vestibulum lorem velit, semper tristique aliquot a, cursus vitae ex. Donec vehicula cursus justo a varius. Nullam sollicitudin, ipsum vitae laoreet bibendum, nisl mauris bibendum lacus, in interdum tortor urna molestie sem. Mauris eu dolor non mi malesuada eleifend ut et sem. Maecenas in laoreet ipsum, eget lobortis risus. Morbi tincidunt nibh felis, ut porttitor dui bibendum at. Etiam non egestas magna.
-                </p>
+
+    <div class="game">
+        <div class="container">
+            <div class="gameoverskrift">
+                <h1>
+                    Tuborg NUL leger gemmeleg
+                </h1>
             </div>
 
-        </div>
-        <div class="gridwrapper landingpage">
 
-            <h1 id="difstyling1">
-                Tampen brænder...
-            </h1>
-            <div id="landingpicbottle">
-                <img src="billeder/tuborg_flaske_wet.png" id="bottle">
-                <img src="billeder/distortion_logo.png" id="egg">
+            <div class="gridwrapper">
+                <div class="gameegg kasse">
+                    <img src="billeder/tuborg_can_dry.png" alt="">
+                </div>
+                <div class="kasse">
+                    <p>
+                        Et og andet sted på hjemmesiden gemmer der sig et lille påskgeæg, der venter på at blive fundet af dig.<br><br>Find det og klik på det, for at deltage i konkurrencen om en hel palle Tuborg NUL!
+                    </p>
+                </div>
+                <div class="gamebeer kasse">
+                    <img src="billeder/tuborg_palle.png" alt="">
+                </div>
             </div>
-            <h2 id="difstyling2">
-                Kan du ægget finde,<br>måske en palle øl du vil vinde...!
-            </h2>
-
         </div>
 
         <footer>
@@ -115,6 +111,8 @@
             </div>
         </footer>
     </div>
+
+
 
 
     <script src="script.js"></script>
