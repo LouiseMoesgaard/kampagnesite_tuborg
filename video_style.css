@@ -1,0 +1,26 @@
+.videosite {
+    background-image: linear-gradient(#FAC177, white);
+}
+
+
+.videooverskrift {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.videooverskrift h2 {
+    font-size: 0.8rem;
+    margin-top: 20vw;
+
+    margin-bottom: inherit;
+}
+
+.videooverskrift h1 {
+    font-size: 1.3rem;
+    margin-top: 1.2vw;
+}
+
+/*** Mediaquries ***/
+@media only screen and (min-width: 600px) {}
