@@ -34,6 +34,35 @@ img {
     width: 100%;
 }
 
+/*** Generelle tekster ***/
+h1 {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 2.9rem;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    color: #093A82;
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin: 0;
+    letter-spacing: 0.5px;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    color: #707070;
+    font-size: 1.2rem;
+    line-height: 30px;
+    font-weight: 500;
+    margin: 0;
+}
+
+
 /*** Navigation **/
 
 #navigation {
@@ -163,129 +192,11 @@ footer p {
     width: 8vw;
 }
 
-/*** Generelle tekster ***/
-h1 {
-    font-family: 'PT Sans', sans-serif;
-    font-weight: bold;
-    color: #FFFFFF;
-    font-size: 2.9rem;
-    margin: 0;
-    letter-spacing: 1px;
-}
 
-h2 {
-    font-family: 'Quicksand', sans-serif;
-    color: #093A82;
-    font-size: 1.7rem;
-    font-weight: 500;
-    margin: 0;
-    letter-spacing: 0.5px;
-}
-
-p {
-    font-family: 'Quicksand', sans-serif;
-    color: #707070;
-    font-size: 1.2rem;
-    line-height: 30px;
-    font-weight: 500;
-    margin: 0;
-}
-
-
-/*** Landingpage ***/
-
-
-#vertical {
-    display: none;
-}
-
-.index {
-    background-image: linear-gradient(#F9D3D6, rgba(249, 211, 214, 0.25));
-}
-
-#landingvideo {
-    padding: 0;
-    margin: 0;
-}
-
-#landingvideo video {
-    width: 100%;
-}
-
-#landingpiccan img {
-    width: 30vw;
-    position: absolute;
-    top: 21%;
-    left: 34%;
-}
-
-.landingpage.gridwrapper {
-    padding: 0 3vw 0 3vw;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#landingpicbottle {
-    flex-grow: 1;
-    flex-basis: 275px;
-    position: relative;
-    height: 115vw;
-}
-
-#landingpicbottle #bottle {
-    position: absolute;
-    width: 30vw;
-    left: 34%;
-    z-index: 3;
-}
-
-#landingpicbottle #egg {
-    position: absolute;
-    width: 30vw;
-    left: 34%;
-    z-index: 2;
-}
-
-.index h2:first-child {
-    flex-grow: 1;
-    flex-basis: 275px;
-    margin-top: 50vw;
-}
-
-.index h1 {
-    flex-grow: 1;
-    flex-basis: 275px;
-    text-align: center;
-}
-
-#landingsection {
-    padding: 0 3vw 0 3vw;
-}
-
-
-.landingsection.gridwrapper {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
-#landingvideo,
-#landingsection {
-    flex-grow: 1;
-    flex-basis: 275px;
-}
 
 /*** Mediaquries ***/
 
 @media only screen and (min-width: 600px) {
-
-    #horizontal {
-        display: none;
-    }
-
-    #vertical {
-        display: block;
-    }
 
     /*** Navigation **/
     #navigation {
@@ -353,62 +264,3 @@ p {
     .mobil_logo {
         display: none;
     }
-
-
-    /*** Landingpage ***/
-
-    #landingsection {
-        padding: 0 2vw 0 10vw;
-    }
-
-    #landingpiccan img {
-        width: 15vw;
-        position: absolute;
-        top: 21%;
-        left: 42%;
-    }
-
-
-    .landingpage.gridwrapper {
-        margin-top: 7vw;
-
-    }
-
-    #landingpicbottle {
-        height: 50vw;
-    }
-
-    #landingpicbottle #bottle {
-        width: 12vw;
-        left: 35%;
-        z-index: 3;
-    }
-
-    #landingpicbottle #egg {
-        position: absolute;
-        width: 10vw;
-        left: 35%;
-        z-index: 2;
-    }
-
-
-    .index h2:first-child {
-        margin-top: 10vw;
-    }
-
-    .index h1 {
-        text-align: center;
-    }
-
-    .index #difstyling1 {
-        padding: 7vw 0 0 2vw;
-
-    }
-
-    .index #difstyling2 {
-        padding: 18vw 2vw 0 0;
-
-    }
-}
-
-/********* Footer *********/
