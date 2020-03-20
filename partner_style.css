@@ -1,6 +1,6 @@
 /*** Partners ***/
 .partners {
-    background-image: linear-gradient(#BEE0D9, rgba(190, 224, 217, 0.5));
+    background-image: linear-gradient(#BEE0D9, rgba(190, 224, 217, 0.25));
 }
 
 .overskrift h1 {
@@ -41,6 +41,12 @@
     padding-top: 10vw;
     padding-left: 25vw;
     padding-right: 25vw;
+
+
+}
+
+.icon img {
+    box-shadow: 3px 3px 20px 1px rgba(0, 0, 0, 0.62);
 }
 
 
