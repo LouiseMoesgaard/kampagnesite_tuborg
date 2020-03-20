@@ -43,6 +43,13 @@
     padding-right: 25vw;
 
 
+
+
+}
+
+.icon img:hover {
+    transform: scale(1.1);
+    transition: all 1s;
 }
 
 
@@ -76,12 +83,16 @@
         margin-bottom: 5vw;
     }
 
-    .icon {
-        padding: 3vw;
-        border-right: 1px solid white;
+
+    .icon:nth-child(1n) {
+        border-right: 2px solid white;
+
     }
 
+    .icon {
+        padding: 3vw;
 
+    }
 
     .overskrift2 {
         display: none
