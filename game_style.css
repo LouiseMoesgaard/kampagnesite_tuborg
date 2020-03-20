@@ -1,0 +1,20 @@
+.game {
+    /* Skal var gradienten men for at kunne se den hvide skrift har jeg lige nu bare sat den blå farve på, indtil vi får gridet og sat det rigtigt op*/
+    background-color: #F9D3D6;
+    /*            background-image: linear-gradient(#F9D3D6, white);*/
+}
+
+.gameoverskrift {
+    display: flex;
+}
+
+.gameoverskrift h1 {
+    font-size: 0.8rem;
+    margin-top: 20vw;
+}
+
+
+
+/*** Mediaquries ***/
+
+@media only screen and (min-width: 600px) {}
