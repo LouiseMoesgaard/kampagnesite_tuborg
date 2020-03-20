@@ -43,12 +43,21 @@
     padding-top: 14vw;
     padding-left: 10vw;
     padding-right: 10vw;
+}
 
+.video_video {
+    position: relative;
+    z-index: 3;
 
 }
 
-.video img {
-    box-shadow: 3px 3px 20px 1px rgba(0, 0, 0, 0.62);
+.video #egg {
+    position: absolute;
+    width: 30vw;
+    top: 33%;
+    left: 51%;
+    z-index: 2;
+    transform: rotate(23deg);
 }
 
 .hastag {
@@ -61,6 +70,10 @@
 
 /*** Mediaquries ***/
 @media only screen and (min-width: 600px) {
+
+    nav ul li:nth-child(3) a {
+        color: #FFFFFF !important;
+    }
 
     .videooverskrift h2 {
         font-size: 1.7rem;
@@ -84,6 +97,13 @@
         padding: 5vw;
     }
 
+    .video #egg {
+        width: 10vw;
+        top: 37%;
+        left: 56%;
+    }
+
+
     .videosite .line1 {
         display: none;
     }
@@ -99,3 +119,5 @@
 
         font-size: 1.5rem;
     }
+
+}

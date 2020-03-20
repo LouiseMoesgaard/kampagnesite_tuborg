@@ -56,6 +56,10 @@
 /*** Mediaquries ***/
 @media only screen and (min-width: 600px) {
 
+    nav ul li:nth-child(5) a {
+        color: #FFFFFF !important;
+    }
+
     .someoverskrift h2 {
         font-size: 1.7rem;
         margin-top: 12vw;
@@ -81,3 +85,4 @@
     .some .line1 {
         display: none;
     }
+}

@@ -51,6 +51,10 @@
 
 @media only screen and (min-width: 600px) {
 
+    nav ul li:nth-child(2) a {
+        color: #FFFFFF !important;
+    }
+
 
     .overskrift h1 {
         font-size: 2.9rem;

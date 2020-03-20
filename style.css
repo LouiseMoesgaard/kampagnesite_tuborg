@@ -192,6 +192,25 @@ footer p {
     width: 8vw;
 }
 
+/*** Modal **/
+
+.egg_modal {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 6;
+}
+
+.modal {
+    position: relative;
+    margin: 15vh auto;
+    width: 90vw;
+    height: 40vh;
+    background-color: white;
+
+}
 
 
 /*** Mediaquries ***/

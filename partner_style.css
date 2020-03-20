@@ -7,6 +7,8 @@
     font-size: 1.3rem;
     margin-top: 20vw;
     margin-bottom: inherit;
+    position: relative;
+    z-index: 3;
 }
 
 .overskrift h2 {
@@ -19,6 +21,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.overskrift #egg {
+    position: absolute;
+    width: 7%;
+    top: 3%;
+    left: 81%;
+    z-index: 2;
+    transform: rotate(23deg);
 }
 
 .overskrift2 {
@@ -41,10 +52,6 @@
     padding-top: 10vw;
     padding-left: 25vw;
     padding-right: 25vw;
-
-
-
-
 }
 
 .icon img:hover {
@@ -55,12 +62,28 @@
 
 
 
+
+
+
 @media only screen and (min-width: 600px) {
+
+    nav ul li:nth-child(4n) {
+        color: #FFFFFF !important;
+    }
 
     .overskrift h1 {
         font-size: 2.9rem;
         margin-top: 12vw;
         margin-bottom: inherit;
+    }
+
+    .overskrift #egg {
+        position: absolute;
+        width: 5%;
+        top: 16%;
+        left: 76%;
+        z-index: 2;
+        transform: rotate(23deg);
     }
 
     .overskrift h2 {
