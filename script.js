@@ -1,5 +1,7 @@
 let nav = document.querySelector("nav ul");
 let modal = document.querySelector(".egg_modal");
+let totalEggs = 5;
+window.localStorage["eggsClicked"] = window.localStorage["eggsClicked"] || 0;
 
 document.addEventListener("DOMContentLoaded", function () {
     if (window.innerWidth >= 600) {
@@ -18,10 +20,13 @@ document.addEventListener("DOMContentLoaded", function () {
     })
 
     document.querySelector(".egg_btn").addEventListener("click", function () {
-        modal.style.height = (document.height || document.body.offsetHeight) + "px";
-        modal.firstElementChild.style.top = (window.pageYOffset || (document.documentElement || document.body.parentNode || document.body).scrollTop) + "px";
-
-        modal.classList.remove("hide");
+        window.localStorage["eggsClicked"] = parseInt(window.localStorage["eggsClicked"]) + 1;
+        console.log(window.localStorage["eggsClicked"])
+        if (window.localStorage["eggsClicked"] === totalEggs) {
+            modal.style.height = (document.height || document.body.offsetHeight) + "px";
+            modal.firstElementChild.style.top = (window.pageYOffset || (document.documentElement || document.body.parentNode || document.body).scrollTop) + "px";
+            modal.classList.remove("hide");
+        }
 
     })
 
@@ -40,3 +45,8 @@ window.addEventListener("resize", function () {
 
     }
 });
+
+window.onunload = () => {
+    // Clear the local storage
+    delete window.localStorage['eggsClicked'];
+}

@@ -6,7 +6,7 @@
 }
 
 .index {
-    background-image: linear-gradient(#F9D3D6, rgba(249, 211, 214, 0.25));
+    background-image: linear-gradient(#F9D3D6 0%, rgba(249, 211, 214, 0.25) 40%, rgba(190, 224, 217, 0.25) 46%, #BEE0D9 100%);
 }
 
 #landingvideo {
@@ -86,12 +86,17 @@
 
 @media only screen and (min-width: 600px) {
 
+    .index {
+        background-image: linear-gradient(#F9D3D6 0%, rgba(249, 211, 214, 0.25) 47.6%, #BEE0D9 47.6%, rgba(190, 224, 217, 0.25) 100%);
+    }
+
     #horizontal {
         display: none;
     }
 
     #vertical {
         display: block;
+        height: 100vh;
     }
 
     /*** Landingpage ***/
