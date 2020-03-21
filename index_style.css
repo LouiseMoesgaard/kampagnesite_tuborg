@@ -83,6 +83,27 @@
     flex-basis: 275px;
 }
 
+.index .test01 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.test01 .button {
+    align-self: center;
+    margin-bottom: 16vw;
+}
+
+#difstyling2 {
+    margin: 0;
+    padding: 0;
+}
+
+.index .test01 h2 {
+    margin: 0;
+    padding: 0;
+}
+
 
 @media only screen and (min-width: 600px) {
 
