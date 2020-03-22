@@ -91,3 +91,39 @@
         width: 13.5vw;
     }
 }
+
+/*****Tablet*****/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    .overskrift h1 {
+        font-size: 2.3rem;
+
+    }
+
+    .txt p {
+        font-size: 1rem;
+        line-height: 20px
+    }
+}
+
+/*****4k skærm*****/
+@media only screen and (min-width: 1600px) {
+
+    .overskrift h1 {
+        font-size: 7rem;
+
+    }
+
+    .txt p {
+        font-size: 2.5rem;
+        line-height: 40px
+    }
+
+
+    nav ul li a {
+        font-size: 1.8rem;
+    }
+
+    footer p {
+        font-size: 1.8rem;
+    }
+}

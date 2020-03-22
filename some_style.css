@@ -78,4 +78,55 @@
     .some .line1 {
         display: none;
     }
+
+    .some_img p {
+        font-size: 1.2rem;
+    }
+}
+
+/*****Tablet*****/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    .someoverskrift h1 {
+        font-size: 1.5rem;
+
+    }
+
+    .someoverskrift h2 {
+        font-size: 1rem;
+
+    }
+
+    .some_img p {
+        margin-top: 1vw;
+        font-size: 1rem;
+    }
+
+}
+
+/*****4k skærm*****/
+@media only screen and (min-width: 1600px) {
+
+    .someoverskrift h1 {
+        font-size: 6rem;
+
+    }
+
+    .someoverskrift h2 {
+        font-size: 3.5rem;
+
+    }
+
+    .some_img p {
+        margin-top: 1vw;
+        font-size: 2.5rem;
+    }
+
+
+    nav ul li a {
+        font-size: 1.8rem;
+    }
+
+    footer p {
+        font-size: 1.8rem;
+    }
 }

@@ -64,7 +64,6 @@
 
 
 
-
 @media only screen and (min-width: 600px) {
 
     nav ul li:nth-child(4n) {
@@ -121,3 +120,36 @@
     .overskrift2 {
         display: none
     }
+}
+
+/*****Tablet*****/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    .gridwrapper {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+        grid-gap: 20px;
+        margin: 8vw;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .overskrift h1 {
+        font-size: 6rem;
+
+    }
+
+    .overskrift h2 {
+        font-size: 3.5rem;
+        margin-top: 0.5vw;
+        margin-right: 9vw;
+
+    }
+
+    nav ul li a {
+        font-size: 1.8rem;
+    }
+
+    footer p {
+        font-size: 1.8rem;
+    }
+}
