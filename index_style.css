@@ -108,7 +108,7 @@
 @media only screen and (min-width: 600px) {
 
     .index {
-        background-image: linear-gradient(#F9D3D6 0%, rgba(249, 211, 214, 0.25) 47.6%, #BEE0D9 47.6%, rgba(190, 224, 217, 0.25) 100%);
+        background-image: linear-gradient(#F9D3D6 0%, rgba(249, 211, 214, 0.25) 100vh, #BEE0D9 100vh, rgba(190, 224, 217, 0.25) 100%);
     }
 
     #horizontal {

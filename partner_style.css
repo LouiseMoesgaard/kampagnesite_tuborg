@@ -102,8 +102,9 @@
         grid-template-columns: minmax(150px, 1fr) minmax(150px, 1fr) minmax(150px, 1fr) minmax(150px, 1fr) minmax(150px, 1fr) minmax(150px, 1fr);
         justify-content: center;
         align-items: center;
-        margin-top: 4vw;
+        margin-top: 5%;
         margin-bottom: 5vw;
+
     }
 
 
