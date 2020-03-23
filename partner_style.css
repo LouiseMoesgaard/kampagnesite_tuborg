@@ -106,12 +106,6 @@
 
     }
 
-
-    .icon:nth-child(1n) {
-        border-right: 2px solid white;
-
-    }
-
     .icon {
         padding: 3vw;
 
