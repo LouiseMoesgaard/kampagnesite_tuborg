@@ -63,7 +63,7 @@
 
 
 
-
+/*****desktop*****/
 @media only screen and (min-width: 600px) {
 
     nav ul li:nth-child(4n) {
@@ -132,6 +132,7 @@
     }
 }
 
+/*****Tablet*****/
 @media only screen and (min-width: 1600px) {
     .overskrift h1 {
         font-size: 6rem;

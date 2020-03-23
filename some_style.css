@@ -38,6 +38,15 @@
     grid-gap: 10vw;
     margin: 5% 5vw;
 
+
+}
+
+.egg img {
+    position: absolute;
+    width: 7%;
+    top: 5%;
+    left: 81%;
+    transform: rotate(23deg);
 }
 
 .some_img img {
@@ -46,7 +55,7 @@
 
 
 
-/*** Mediaquries ***/
+/*****desktop*****/
 @media only screen and (min-width: 600px) {
 
     nav ul li:nth-child(5) a {
@@ -82,6 +91,13 @@
     .some_img p {
         font-size: 1.2rem;
     }
+
+    .egg img {
+        width: 7%;
+        top: 3%;
+        left: 81%;
+    }
+
 }
 
 /*****Tablet*****/
@@ -103,7 +119,7 @@
 
 }
 
-/*****4k skærm*****/
+/*****4k*****/
 @media only screen and (min-width: 1600px) {
 
     .someoverskrift h1 {

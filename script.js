@@ -1,9 +1,18 @@
 let nav = document.querySelector("nav ul");
 let modal = document.querySelector(".egg_modal");
-let totalEggs = 5;
-window.localStorage["eggsClicked"] = window.localStorage["eggsClicked"] || 0;
+let totalEggs = 3;
+window.sessionStorage["eggsClicked"] = window.sessionStorage["eggsClicked"] || 0;
+window.sessionStorage["eggsHidden"] = window.sessionStorage["eggsHidden"] || JSON.stringify({
+    "index": false,
+    "partners": false,
+    "game": false,
+    "videosite": false,
+    "some_content": false
+});
+
 
 document.addEventListener("DOMContentLoaded", function () {
+    let eggsHidden = JSON.parse(window.sessionStorage["eggsHidden"]);
     if (window.innerWidth >= 600) {
         nav.classList.remove("hide")
 
@@ -19,14 +28,26 @@ document.addEventListener("DOMContentLoaded", function () {
         nav.classList.add("hide")
     })
 
+    let location = window.location.pathname.substr(1, window.location.pathname.indexOf("."));
+    if (eggsHidden[location]) {
+        document.querySelector(".egg_btn").classList.add("hide");
+    }
+
     document.querySelector(".egg_btn").addEventListener("click", function () {
-        window.localStorage["eggsClicked"] = parseInt(window.localStorage["eggsClicked"]) + 1;
-        console.log(window.localStorage["eggsClicked"])
-        if (window.localStorage["eggsClicked"] === totalEggs) {
+        if (!eggsHidden[location]) {
+            eggsHidden[location] = true;
+            this.classList.add("hide");
+            window.sessionStorage["eggsHidden"] = JSON.stringify(eggsHidden)
+        }
+        window.sessionStorage["eggsClicked"] = parseInt(window.sessionStorage["eggsClicked"]) + 1;
+
+        console.log(window.sessionStorage["eggsClicked"]);
+        if (parseInt(window.sessionStorage["eggsClicked"]) === totalEggs) {
             modal.style.height = (document.height || document.body.offsetHeight) + "px";
             modal.firstElementChild.style.top = (window.pageYOffset || (document.documentElement || document.body.parentNode || document.body).scrollTop) + "px";
             modal.classList.remove("hide");
         }
+        console.log(parseInt(window.sessionStorage["eggsClicked"]) === totalEggs);
 
     })
 
@@ -45,8 +66,3 @@ window.addEventListener("resize", function () {
 
     }
 });
-
-window.onunload = () => {
-    // Clear the local storage
-    delete window.localStorage['eggsClicked'];
-}
