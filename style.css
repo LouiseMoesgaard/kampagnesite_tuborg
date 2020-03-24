@@ -206,13 +206,14 @@ footer p {
 
 .modal {
     position: relative;
-    margin: 30vh auto;
-    width: 45vw;
-    height: auto;
-    padding: 2vw;
+    /*    margin: 30vh auto;*/
+    width: 100vw;
+    height: 100vh;
+    padding: 4vw;
+
     background-color: white;
 
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.64);
+    /*    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.64);*/
 }
 
 .close_btn {
@@ -226,6 +227,7 @@ footer p {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    padding-top: 10vw;
 }
 
 .modal_overskrift h1 {
@@ -251,37 +253,149 @@ footer p {
 }
 
 .modal_overskrift .mail {
-    width: 30vw;
-    height: 4vw;
+    width: auto;
+    height: 12vw;
+    text-align: center;
 
     border: solid 1px #BFBFBF;
-    font-size: 1.3rem;
+    font-size: 1rem;
     color: #F9D3D6;
-    padding: 10px;
+    padding: 2vw;
+
     font-weight: 700;
+    /*
     margin-top: 2vw;
     margin-bottom: 2vw;
+*/
 }
 
 .modal_overskrift .submit_button {
-    height: 4vw;
+    height: 12vw;
+    text-align: center;
 
     border: none;
     background-color: #F9D3D6;
-    font-size: 1.3rem;
+    font-size: 1rem;
     color: #ffffff;
-    padding: 10px;
+    /*    padding: 10px;*/
+    /*
     padding-left: 20px;
     padding-right: 20px;
+*/
 
     font-weight: 700;
+    /*
     margin-top: 2vw;
     margin-bottom: 2vw;
+*/
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
 }
 
 /*** Mediaquries ***/
 
 @media only screen and (min-width: 600px) {
+
+    /*** Modal **/
+
+    .egg_modal {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        background-color: rgba(0, 0, 0, 0.3);
+        z-index: 6;
+    }
+
+    .modal_overskrift h3 {
+        font-size: 1rem;
+    }
+
+    .modal_overskrift h2 {}
+
+    .modal {
+        position: relative;
+        margin: 30vh auto;
+        width: 45vw;
+        height: auto;
+        padding: 2vw;
+
+        background-color: white;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.64);
+    }
+
+    .close_btn {
+        display: flex;
+        justify-content: flex-end;
+        /*    padding: 1.5vw;*/
+    }
+
+    .modal_overskrift {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding-top: 0vw;
+    }
+
+    form {
+        display: flex;
+        flex-direction: row;
+        justify-content: none;
+        margin-top: 0vw;
+        margin-bottom: 0vw;
+    }
+
+
+    .modal_overskrift .mail {
+        width: 60vw;
+        height: 4vw;
+        text-align: start;
+
+        border: solid 1px #BFBFBF;
+        font-size: 1.2rem;
+        color: #F9D3D6;
+        padding: 2vw;
+
+        font-weight: 700;
+        letter-spacing: 1px;
+
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+
+
+    }
+
+    .modal_overskrift .submit_button {
+        height: 4vw;
+        width: 20vw;
+        text-align: center;
+
+        background-color: #F9D3D6;
+        border: solid 1px #F9D3D6;
+        font-size: 1.2rem;
+        color: #ffffff;
+        padding: 10px;
+        letter-spacing: 1px;
+
+        padding-left: 20px;
+        padding-right: 20px;
+
+        font-weight: 700;
+
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+
+    }
+
+
+
 
     /*** Navigation **/
     #navigation {
@@ -372,12 +486,30 @@ footer p {
         }
     }
 
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+        .modal {
+            position: relative;
+            margin: 30vh auto;
+            width: 70vw;
+            height: auto;
+            padding: 2vw;
+
+            background-color: white;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.64);
+        }
+
+        .modal_overskrift .submit_button {
+            padding: 0px;
+        }
+    }
+
 
     @media only screen and (min-width: 1600px) {
 
         nav ul li a {
             font-size: 1.4rem;
         }
+
         footer p {
             font-size: 1.8rem;
         }
@@ -389,6 +521,7 @@ footer p {
         h2 {
             font-size: 2.5rem;
         }
+
         p {
             font-size: 1.1rem;
         }
