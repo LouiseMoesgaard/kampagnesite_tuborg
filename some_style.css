@@ -53,6 +53,14 @@
     box-shadow: 3px 3px 20px 1px rgba(0, 0, 0, 0.62);
 }
 
+.some_img a {
+    color: #707070;
+}
+
+.some_img a:hover {
+    color: #093A82;
+}
+
 
 
 /*****desktop*****/
