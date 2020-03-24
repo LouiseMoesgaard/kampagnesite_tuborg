@@ -99,9 +99,9 @@
 
 
 .landingpage.gridwrapper {
-    padding: 0 3vw 0 3vw;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50vw 120vw 100vw;
 }
 
 #landingpicbottle {
@@ -197,6 +197,8 @@
 
     .landingpage.gridwrapper {
         margin-top: 7vw;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
 
     }
 
