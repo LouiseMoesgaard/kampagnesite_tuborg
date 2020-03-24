@@ -121,28 +121,3 @@
     }
 
 }
-
-/*****4k skærm*****/
-@media only screen and (min-width: 1600px) {
-    .videooverskrift h2 {
-        font-size: 3.5rem;
-
-    }
-
-    .videooverskrift h1 {
-        font-size: 7rem;
-
-    }
-
-    .hastag p {
-        font-size: 2.5rem;
-    }
-
-    nav ul li a {
-        font-size: 1.8rem;
-    }
-
-    footer p {
-        font-size: 1.8rem;
-    }
-}
