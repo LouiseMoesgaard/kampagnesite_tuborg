@@ -1,6 +1,6 @@
 let nav = document.querySelector("nav ul");
 let modal = document.querySelector(".egg_modal");
-let totalEggs = 3;
+let totalEggs = 1;
 window.sessionStorage["eggsClicked"] = window.sessionStorage["eggsClicked"] || 0;
 window.sessionStorage["eggsHidden"] = window.sessionStorage["eggsHidden"] || JSON.stringify({
     "index": false,

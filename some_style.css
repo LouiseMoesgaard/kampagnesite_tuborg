@@ -122,6 +122,7 @@
 /*****4k*****/
 @media only screen and (min-width: 1600px) {
 
+    /*
     .someoverskrift h1 {
         font-size: 6rem;
 
@@ -136,13 +137,6 @@
         margin-top: 1vw;
         font-size: 2.5rem;
     }
+*/
 
-
-    nav ul li a {
-        font-size: 1.8rem;
-    }
-
-    footer p {
-        font-size: 1.8rem;
-    }
 }
