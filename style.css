@@ -200,19 +200,84 @@ footer p {
     width: 100vw;
     height: 100vh;
     top: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
     z-index: 6;
 }
 
 .modal {
     position: relative;
-    margin: 15vh auto;
-    width: 90vw;
-    height: 40vh;
+    margin: 30vh auto;
+    width: 45vw;
+    height: auto;
+    padding: 2vw;
     background-color: white;
 
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.64);
 }
 
+.close_btn {
+    display: flex;
+    justify-content: flex-end;
+    /*    padding: 1.5vw;*/
+}
+
+.modal_overskrift {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.modal_overskrift h1 {
+    font-family: 'PT Sans', sans-serif;
+    color: #093A82;
+}
+
+.modal_overskrift h3 {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    color: #093A82;
+}
+
+.modal_overskrift h2 {
+    font-family: 'PT Sans', sans-serif;
+    color: #093A82;
+}
+
+.modal_overskrift p {
+    font-family: 'PT Sans', sans-serif;
+    color: #b2b2b2;
+    font-size: 0.8rem;
+}
+
+.modal_overskrift .mail {
+    width: 30vw;
+    height: 4vw;
+
+    border: solid 1px #BFBFBF;
+    font-size: 1.3rem;
+    color: #F9D3D6;
+    padding: 10px;
+    font-weight: 700;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.modal_overskrift .submit_button {
+    height: 4vw;
+
+    border: none;
+    background-color: #F9D3D6;
+    font-size: 1.3rem;
+    color: #ffffff;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    font-weight: 700;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
 
 /*** Mediaquries ***/
 
