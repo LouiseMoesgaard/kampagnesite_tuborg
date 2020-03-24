@@ -53,6 +53,14 @@
     box-shadow: 3px 3px 20px 1px rgba(0, 0, 0, 0.62);
 }
 
+.some_img a {
+    color: #707070;
+}
+
+.some_img a:hover {
+    color: #093A82;
+}
+
 
 
 /*****desktop*****/
@@ -121,22 +129,8 @@
 
 /*****4k*****/
 @media only screen and (min-width: 1600px) {
-
-    /*
-    .someoverskrift h1 {
-        font-size: 6rem;
-
-    }
-
-    .someoverskrift h2 {
-        font-size: 3.5rem;
-
-    }
-
     .some_img p {
         margin-top: 1vw;
         font-size: 2.5rem;
     }
-*/
-
 }

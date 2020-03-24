@@ -46,7 +46,13 @@
     font-weight: 500;
     display: inline-block;
     text-align: center;
+    padding-left: 2vw;
+    padding-right: 2vw;
 
+}
+
+.button:hover {
+    transform: scale(1.05)
 }
 
 /*** Landingsection ***/
@@ -89,9 +95,6 @@
     left: 35%;
 }
 
-.index p {
-    font-size: 0.9rem;
-}
 
 
 
