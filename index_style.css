@@ -269,6 +269,13 @@
 /*****4k*****/
 @media only screen and (min-width: 1600px) {
 
+    h1 {
+        font-size: 5rem !important;
+    }
+
+    h2 {
+        font-size: 3rem !important;
+    }
 
     nav ul li a {
         font-size: 1.8rem;
