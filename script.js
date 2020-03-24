@@ -47,7 +47,6 @@ document.addEventListener("DOMContentLoaded", function () {
             modal.firstElementChild.style.top = (window.pageYOffset || (document.documentElement || document.body.parentNode || document.body).scrollTop) + "px";
             modal.classList.remove("hide");
         }
-        console.log(parseInt(window.sessionStorage["eggsClicked"]) === totalEggs);
 
     })
 
