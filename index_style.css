@@ -80,6 +80,7 @@
     padding-left: 2vw;
     padding-right: 2vw;
 
+
 }
 
 .button:hover {
@@ -197,20 +198,28 @@
     padding: 0 3vw 0 3vw;
     display: grid;
     grid-template-columns: 1fr;
+    margin-bottom: 40vw;
 }
 
 .datastyling2 {
     padding: 20px;
+    justify-self: center;
+    margin-bottom: 7vw;
+    height: 10vw;
+
 }
 
 .chartWrapper {
     margin: 0 auto;
     width: 250px;
+    margin-top: 12vw;
+
 }
 
 #barchart {
     max-width: 1000px;
     overflow: visible;
+
 }
 
 .chart line {
@@ -253,7 +262,7 @@
 
 
     .button {
-        width: 20vw;
+        width: 17vw;
     }
 
     /*** Landingpage ***/
@@ -366,7 +375,7 @@
 
     .data.gridwrapper {
         grid-template-columns: 1fr 1fr;
-        padding: 0vw 7vw 7vw 0;
+        padding: 7vw 7vw 7vw 7vw;
     }
 
     .data.gridwrapper h1 {
@@ -378,12 +387,27 @@
         margin-top: 1vw;
     }
 
+    .datastyling2 {
+        padding: 20px;
+        justify-self: flex-end;
+        margin-bottom: 7vw;
+        height: 10vw;
+        margin-right: 6vw;
+
+    }
+
+    .datastyling1 h2 {
+        padding-top: 3vw;
+        margin-bottom: 0vw;
+    }
+
     .test01 {
         width: auto;
     }
 
     .button {
         margin: 3vw auto;
+        padding: none;
     }
 
     .datastyling2 {
