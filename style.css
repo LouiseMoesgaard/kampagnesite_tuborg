@@ -152,7 +152,7 @@ footer {
 
 .line_right {
     width: 120px;
-    height: 2px;
+    height: 1px;
     background-color: #707070;
     margin: 5px;
     margin: 0.5vw;
@@ -161,7 +161,7 @@ footer {
 
 .line_left {
     width: 200px;
-    height: 2px;
+    height: 1px;
     background-color: #707070;
     margin: 5px;
     margin: 0.5vw;
