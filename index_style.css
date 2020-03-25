@@ -274,7 +274,7 @@
     #landingpiccan img {
         width: 15vw;
         position: absolute;
-        top: 6%;
+        top: 10%;
         left: 42%;
     }
 
@@ -311,7 +311,7 @@
         position: absolute;
         width: 4vw;
         left: 48%;
-        top: 21%;
+        top: 29%;
         z-index: 5;
         align-items: flex-end;
     }
@@ -376,6 +376,7 @@
     .data.gridwrapper {
         grid-template-columns: 1fr 1fr;
         padding: 7vw 7vw 7vw 7vw;
+        margin-bottom: 0vw;
     }
 
     .data.gridwrapper h1 {
@@ -412,6 +413,7 @@
 
     .datastyling2 {
         position: relative;
+        margin-bottom: 0vw;
     }
 
     .chartWrapper {
@@ -420,6 +422,7 @@
         display: inline-block;
         position: absolute;
         right: 0;
+        margin-bottom: 0vw;
     }
 }
 
