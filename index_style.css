@@ -193,7 +193,7 @@
     #landingpiccan img {
         width: 15vw;
         position: absolute;
-        top: 21%;
+        top: 14%;
         left: 42%;
     }
 
@@ -228,6 +228,7 @@
     }
 
     .index h1 {
+        margin: 2vw 0;
         text-align: center;
     }
 
