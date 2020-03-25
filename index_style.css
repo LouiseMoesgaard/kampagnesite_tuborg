@@ -132,7 +132,7 @@
 .landingpage.gridwrapper {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 50vw 120vw 100vw;
+    grid-template-rows: 50vw 120vw 60vwvw;
 }
 
 #landingpicbottle {
