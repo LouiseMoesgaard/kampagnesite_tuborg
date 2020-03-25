@@ -265,7 +265,7 @@
     #landingpiccan img {
         width: 15vw;
         position: absolute;
-        top: 14%;
+        top: 10%;
         left: 42%;
     }
 
@@ -302,7 +302,7 @@
         position: absolute;
         width: 4vw;
         left: 48%;
-        top: 35%;
+        top: 32%;
         z-index: 5;
         align-items: flex-end;
     }
@@ -311,7 +311,7 @@
         position: absolute;
         width: 2vw;
         left: 26%;
-        top: 12%;
+        top: 8%;
         z-index: 7;
         align-items: flex-end;
     }
