@@ -433,7 +433,8 @@ form {
 
     nav ul li a {
         color: #707070;
-        font-size: 0.8rem;
+        font-size: 0.7rem;
+        font-weight: 500;
     }
 
     nav ul li a:hover {
